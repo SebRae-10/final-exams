@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact page for Sebastian Lacuesta's Spider-Man inspired website."
+    />
+    <title>Sebastian Lacuesta's Web Site | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="logo-mark">🕷</span>
+        <span>Sebastian Lacuesta's Web Site</span>
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button">Menu</button>
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <p class="eyebrow">Contact</p>
+        <h1>Send a message</h1>
+        <p>
+          Use the form below if you want to leave a message or ask something about the site.
+        </p>
+      </section>
+
+      <section class="form-section">
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+          <button type="submit">Send Message</button>
+          <p class="error" id="errorMsg"></p>
+          <p class="success" id="successMsg"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Sebastian Lacuesta</p>
+      <p id="currentDate"></p>
+    </footer>
+  </body>
+</html>

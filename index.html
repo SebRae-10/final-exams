@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple Spider-Man inspired website made by Sebastian Lacuesta."
+    />
+    <title>Sebastian Lacuesta's Web Site | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="logo-mark">🕷</span>
+        <span>Sebastian Lacuesta's Web Site</span>
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button">Menu</button>
+      <nav class="nav" id="navMenu" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero spider-hero">
+        <p class="eyebrow">Spider-Man inspired project</p>
+        <h1>Sebastian Lacuesta's Web Site</h1>
+        <p>
+          This is a simple website with a Spider-Man look. I kept it clean, easy to read, and
+          responsive so it works well on different screen sizes.
+        </p>
+        <p id="greeting" class="highlight-text"></p>
+        <div class="hero-actions">
+          <a href="about.html" class="btn-primary">Learn More</a>
+          <a href="contact.html" class="btn-secondary">Contact Me</a>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="card">
+          <h2>Simple Layout</h2>
+          <p>The pages are arranged in a straightforward way so they are easy to follow.</p>
+        </div>
+        <div class="card">
+          <h2>Spider-Man Style</h2>
+          <p>The colors and design are inspired by Spider-Man without looking too busy.</p>
+        </div>
+        <div class="card">
+          <h2>Useful Features</h2>
+          <p>The site includes a menu toggle, live date, greeting, and form validation.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Sebastian Lacuesta</p>
+      <p id="currentDate"></p>
+    </footer>
+  </body>
+</html>
